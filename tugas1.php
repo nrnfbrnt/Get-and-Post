@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6"> 
-            <form action="tugas3.php" method="get" class="mt-3">
+            <form action="tugas1.php" method="get" class="mt-3">
             
             <div class="form-group">
                     <label for="">Name</label>
@@ -30,11 +30,11 @@
                 <label for="">Lesson</label>
                 <select class="form-select form-control" class="form-control" name="lesson">
                     <option selected >Choose Lesson :</option>
-                    <option value="Web Programming">Web Programming</option>
-                    <option value="Database" >Database</option>
-                    <option value="Statiska" >Statiska</option>
-                    <option value="PKN" >PKN</option>
-                    <option value="UI/UX" >UI/UX</option>
+                    <option value="">Web Programming</option>
+                    <option value="" >Database</option>
+                    <option value="" >Statiska</option>
+                    <option value="" >PKN</option>
+                    <option value="" >UI/UX</option>
                 </select>
                 <div class="form-group">
                     <label for=""> UTS Value</label>
@@ -55,6 +55,7 @@
 
             </form>
             <?php 
+           
             $nama = $_GET ['nama'];
             $nim = $_GET ['nim'];
             $nilai_uts = $_GET ['uts'];

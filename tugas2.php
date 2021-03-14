@@ -16,7 +16,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
-            <form action="tugas4.php" method="post" class="mt-3">
+            <form action="tugas2.php" method="post" class="mt-3">
             
             <div class="form-group">
                     <label for=""> Customer </label>
